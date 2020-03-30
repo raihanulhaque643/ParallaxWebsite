@@ -73,4 +73,13 @@ body, html {
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
+    .ptext .border{
+        padding: 0;
+    }
+}
+
+@media(max-width:965px){
+    .ptext .border{
+        padding: 0;
+    }
 }
